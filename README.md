@@ -42,7 +42,7 @@ With pip or pip3 you should download
 Make ALL the scripts in the folder executable with "chmod +x example.py" in the command line
 And yes ALL of the 100+ files...
 
-with the comand "crontab -e" you open the schedeuler
+with the comand "crontab -e" you open the scheduler
 
 copy the lines from "CRONTAB INPUT" and paste them there
 - ctrl + o to save 
