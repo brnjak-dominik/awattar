@@ -1,0 +1,22 @@
+15 * * * * /home/pi/Python/INSERTSQL.py # sql
+# 11 14 * * * /home/pi/Python/aWATTar_V06.py # main
+# 0 10 * * * /home/pi/Python/GPIOE.sh # test
+# 1 14 * * * /home/pi/Python/GPIOD.sh # test1
+0 10 * * * /home/pi/Python/17E.sh # last1
+1 14 * * * /home/pi/Python/17D.sh # last1e
+0 9 * * * /home/pi/Python/18E.sh # last2
+1 14 * * * /home/pi/Python/18D.sh # last2e
+0 11 * * * /home/pi/Python/19E.sh # last3
+1 17 * * * /home/pi/Python/19D.sh # last3e
+
+0 10 * * * /home/pi/Python/20E.sh # last4
+1 17 * * * /home/pi/Python/20D.sh # last4e
+
+11 14 * * * /home/pi/Python/Last1/4.py # m
+
+12 14 * * * /home/pi/Python/Last2/5.py # m2
+
+13 14 * * * /home/pi/Python/Last3/6.py # m3
+
+14 14 * * * /home/pi/Python/Last4/7.py # m4
+
