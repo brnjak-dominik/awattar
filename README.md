@@ -43,19 +43,26 @@ Make ALL the scripts in the folder executable with "chmod +x example.py" in the 
 And yes ALL of the 100+ files...
 
 with the comand "crontab -e" you open the schedeuler
+
 copy the lines from "CRONTAB INPUT" and paste them there
-ctrl + o then ENTER and then ctrl+x to EXIT 
+- ctrl + o to save 
+- then ENTER to save chnanges
+- then ctrl+x to EXIT 
 
 In the file "config.ini" you can input your AWATTAR-API-Token and MySQL credentials (in case you want to change them)
 
 in "/home/pi/Python/UI" is a file "aWATTarAPP.py" that starts the actual User Interface
 
 All the files "17E/D.py ; 18E/D.py, 19E/D, 20E/D.py" are containing the GPIOs that are controled 
+
 (you can change them if wanted)
 
 In case I forgot something - the IDE is going to tell you!
+
 Big thanks to aWATTar for their support!
 
 The Project is still IN PROGRESS!! 
+
 So far it is working well, but don't be mad, if there are some bugs :)
+
 (c) Brnjak Dominik
