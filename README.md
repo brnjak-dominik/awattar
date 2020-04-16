@@ -50,7 +50,7 @@ In the file "config.ini" you can input your AWATTAR-API-Token and MySQL credenti
 in "/home/pi/Python/UI" is a file "aWATTarAPP.py" that starts the actual User Interface
 
 All the files "17E/D.py ; 18E/D.py, 19E/D, 20E/D.py" are containing the GPIOs that are controled 
-(You can change them if wanted)
+(you can change them if wanted)
 
 In case I forgot something - the IDE is going to tell you!
 
