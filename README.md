@@ -17,6 +17,7 @@ Before Start your Raspberry Pi should have installed:
 - Enabled Remote GPIOs  
 
 Create a Database called "aWATTar" with user "awattar" and passwd "awattar" 
+
 Run the Script CREATE TABLE - on http://localhost/phpmyadmin you can log in
 
 There should be 5 Tables
