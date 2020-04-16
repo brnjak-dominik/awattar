@@ -1,5 +1,5 @@
 # awattar
-awattar load management
+aWATTar LOAD MANAGEMENT
 
 Running on a raspberry Pi 3B+ with Rasbian
 
