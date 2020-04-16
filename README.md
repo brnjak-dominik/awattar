@@ -54,6 +54,8 @@ All the files "17E/D.py ; 18E/D.py, 19E/D, 20E/D.py" are containing the GPIOs th
 (you can change them if wanted)
 
 In case I forgot something - the IDE is going to tell you!
+Big thanks to aWATTar for their support!
 
 The Project is still IN PROGRESS!! 
 So far it is working well, but don't be mad, if there are some bugs :)
+(c) Brnjak Dominik
