@@ -1,16 +1,20 @@
 # awattar
 awattar load management
 
+Running on a raspberry Pi 3B+ with Rasbian
+
 User should be "pi"
 Put the whole content in a folder named "Python" in the folder "pi"
-Path should look like "/home/pi/Python/all the files and folders" 
+Path should look like "/home/pi/Python/all the files and folders form this repository" 
 
 Before Start your Raspberry Pi should have installed:
 
-- SSH/SFTP
-- XRDP
+- SSH/SFTP 
+- XRDP (Remote Desktop)
 - MySQL Database with PHP MyAdmin 
-- Webmin 
+- Webmin
+- pigpio
+- Enabled Remote GPIOs  
 
 Create a Database called "aWATTar" with user "awattar" and passwd "awattar" 
 Run the Script CREATE TABLE - on http://localhost/phpmyadmin you can log in
@@ -35,15 +39,20 @@ With pip or pip3 you should download
 - SMTP Lib (optional)
 
 Make ALL the scripts in the folder executable with "chmod +x example.py" in the command line
+And yes ALL of the 100+ files...
 
 with the comand "crontab -e" you open the schedeuler
 copy the lines from "CRONTAB INPUT" and paste them there
 ctrl + o then ENTER and then ctrl+x to EXIT 
 
-In the file "config.ini" you can input your awattar API Token and MySQL credentials (in case you want to change them)
+In the file "config.ini" you can input your AWATTAR-API-Token and MySQL credentials (in case you want to change them)
 
 in "/home/pi/Python/UI" is a file "aWATTarAPP.py" that starts the actual User Interface
 
+All the files "17E/D.py ; 18E/D.py, 19E/D, 20E/D.py" are containing the GPIOs that are controled 
+(You can change them if wanted)
+
 In case I forgot something - the IDE is going to tell you!
-The Project is still IN PROGRESS! 
-So far it is working well, but don't be mad, if there are some bugs ;)
+
+The Project is still IN PROGRESS!! 
+So far it is working well, but don't be mad, if there are some bugs :)
